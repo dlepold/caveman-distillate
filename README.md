@@ -19,10 +19,15 @@ Strips articles, filler words, pleasantries, and hedging from Claude's responses
 ## Install
 
 ```bash
-npx skills add dlepold/caveman-distillate
+npx skills add jccidc/caveman-distillate
 ```
 
 Or manually: copy `skills/caveman-distillate/SKILL.md` into your `.claude/skills/` directory.
+
+## Fork Changes
+
+This fork adds:
+- **Token savings footer** — after each caveman response, a one-liner shows estimated savings: `> Caveman saved ~X% (~N tokens)`. Gives visible feedback that compression is working without adding noise.
 
 ## Usage
 
