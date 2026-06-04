@@ -1,0 +1,3 @@
+# Local deployment config and runtime state (machine-specific, never commit).
+config.sh
+state/

@@ -57,6 +57,19 @@ The three intensity levels are unnecessary complexity — "full" is what you wan
 
 The best compression is compressing the compressor itself. A 450-token prompt that tells you to be brief is ironic. This is the distillate — what remains after boiling away everything unnecessary.
 
+## Other skills in this repo
+
+### nhv-creator-watch
+
+A daily assistant that watches one YouTube creator, pulls their newest videos
+(transcripts) and posts, turns each tip into concrete advice for the **cms4life
+NHV** project (`nhv2` order structure + business logic), and emails the digest
+to admin via the existing `admin2email()` helper. Designed to run as a daily
+cron on TB16 (mirrored to B14).
+
+See [`skills/nhv-creator-watch/README.md`](skills/nhv-creator-watch/README.md)
+for setup.
+
 ## License
 
 MIT
